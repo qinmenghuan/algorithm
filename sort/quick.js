@@ -14,7 +14,7 @@ const quickSort = (arr) => {
     }else {
       right.push(item);
     }
-  });  
+  });
   return quickSort(left).concat(pivot,quickSort(right));
 }
 
